@@ -1,0 +1,11 @@
+{	"strips":[
+		{	"name": "porch",
+			"numLeds": 128,
+			"powerSupplyAmps": 2.0,
+			"reversed": true,
+			"framePeriod": 50
+		}],
+	"service": {
+		"port": 8080
+	}
+}

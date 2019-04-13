@@ -1,0 +1,99 @@
+{
+	"chase-xmas-0": {
+		"module": "./patterns/chase",
+		"options": {
+			"colors": [
+					{}, {"red": 255}, {}, {}, {"green": 255}, {}
+				],
+			"framePeriod": 50,
+			"direction": "ltr",
+			"chase": {
+				"phases": [
+					{ "length": 300, "randomness" : 0.0}
+				]
+			}
+		}
+	},
+	"chase-xmas-1": {
+		"module": "./patterns/chase",
+		"options": {
+			"colors": [
+					{}, {"red": 255}, {}, {}, {"green": 255}, {}
+				],
+				"framePeriod": 50,
+			"direction": "ltr",
+			"chase": {
+				"phases": [
+					{ "length": 10000, "randomness" : 0.0},
+					{ "length": 10000, "randomness" : {"start": 0.0, "end": 0.5, "sigma": 1.5}},
+					{ "length": 10000, "randomness" : {"start": 0.5, "end": 0.0, "sigma": 1.5}}
+				]
+			}
+		}
+	},
+	"chase-xmas-2": {
+		"module": "./patterns/chase",
+		"options": {
+			"colors": [
+					{}, {}, {}, {}, {"red": 255}, {"red": 255}, {}, {}, {}, {}, {}, {}, {}, {}, {"green": 255}, {"green": 255}, {}, {}, {}, {}
+				],
+				"framePeriod": 50,
+			"direction": "ltr",
+			"chase": {
+				"phases": [
+					{ "length": 10000, "randomness" : 0.0},
+					{ "length": 10000, "randomness" : {"start": 0.0, "end": 0.5, "sigma": 1.5}},
+					{ "length": 10000, "randomness" : {"start": 0.5, "end": 0.0, "sigma": 1.5}}
+				]
+			}
+		}
+	},
+	"chase-blue": {
+		"module": "./patterns/chase",
+		"options": {
+			"colors": [
+					{}, {}, {}, {}, {}, {}, {"red":10,"green":10,"blue":10}, {"blue":20}, {"blue":20}
+				],
+				"framePeriod": 50,
+			"direction": "ltr",
+			"chase": {
+				"phases": [
+					{ "length": 10000, "randomness" : 0.0},
+					{ "length": 500, "randomness" : {"start": 0.5, "end": 0.5, "sigma": 1.5}}
+				]
+			}
+		}
+	},
+	"chase-green": {
+		"module": "./patterns/chase",
+		"options": {
+			"colors": [
+					{}, {}, {}, {}, {}, {}, {"red":10,"green":10,"blue":10}, {"green":20}, {"green":20}
+				],
+				"framePeriod": 50,
+			"direction": "ltr",
+			"chase": {
+				"phases": [
+					{ "length": 10000, "randomness" : 0.0},
+					{ "length": 500, "randomness" : {"start": 0.5, "end": 0.5, "sigma": 1.5}}
+				]
+			}
+		}
+	},
+	"chase-yellow": {
+		"module": "./patterns/chase",
+		"options": {
+			"colors": [
+					{}, {}, {}, {}, {}, {}, {"red":10,"green":10,"blue":10}, {"red":10,"green":10}, {"red":10,"green":10}
+				],
+				"framePeriod": 50,
+			"direction": "ltr",
+			"chase": {
+				"phases": [
+					{ "length": 10000, "randomness" : 0.0},
+					{ "length": 500, "randomness" : {"start": 0.5, "end": 0.5, "sigma": 1.5}}
+				]
+			}
+		}
+	}
+}
